@@ -1,5 +1,4 @@
 ##签名算法
-===
 
 1. 获取请求的http method;
 2. 获取请求的url,包括host和sheme,但不包括query_string的部分;
