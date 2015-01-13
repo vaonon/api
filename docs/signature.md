@@ -13,17 +13,17 @@
 **ex:** sign=md5(urlencode($http_method$url$appid$secret_key),'utf-8');
 
 
-**例如:**
-appid: ######cntkg4748
+**例如:**<br>
+appid: cntkg4748
 
 
-secret key: ######8cd734379145a43e3f18d5b03f871508
+secret key: 8cd734379145a43e3f18d5b03f871508
 
 
 http: get http://open.kaolafm.com/v1/category/sublist?cid=100
 
 
-**签名方式为** sign = md5(urlencode(gethttp://open.kaolafm.com/v1/category/sublist#####cntkg4748######8cd734379145a43e3f18d5b03f871508),utf-8)
+**签名方式为** sign = md5(urlencode(gethttp://open.kaolafm.com/v1/category/sublistcntkg47488cd734379145a43e3f18d5b03f871508),utf-8)
 ￼
 
 
